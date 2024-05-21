@@ -1,0 +1,342 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+
+
+.navbg{
+    background-color:#00324c;
+    color: white;
+    font-family: "Lato", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.logo{
+  width: 70%;
+  height: 100%
+}
+
+.nav{
+
+  padding-top: 15px;
+}
+.navli{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0px 5px;
+}
+.ahover:hover{
+  color:#31718f !important;
+  border-top:2px solid #20b3ca;
+  padding-top: 28px;
+}
+.home{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) , url(PICS/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+ width: 100%;
+}
+
+.pic{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(contactpic.jpg);
+padding: 200px 0px;
+  width: 100%;
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+}
+
+.about{
+  position: absolute;
+  bottom: 50px;
+}
+
+.title{
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
+.us{
+  color: #20b3ca;
+}
+.top{
+  margin-top: 70px !important;
+  gap: 2px;
+}
+.ic{
+  font-size: 50px;
+  color: #20b3ca;
+}
+
+.first{
+  margin: 60px ;
+
+}
+.shadow{
+  box-shadow: 60px 30px 30px gray;
+}
+
+.shadow:hover{
+  background-color: rgb(197, 194, 194,0.2);
+  transition: 0.3s ease;
+  transform: scaleX(1.02);
+}
+.map iframe{
+  height: 80vh;
+  width:100%;
+  margin: 80px 0px;
+}
+
+.check{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.btnc{
+  padding: 20px 60px !important;
+  background-color: rgb(222, 218, 218, 0.46) !important;
+  border: 1px solid rgba(191, 186, 186, 0.5) !important;
+  margin: 20px 0px;
+}
+.color{
+  background-color:  rgba(222, 218, 218, 0.46) !important;
+}
+
+
+/* footer */
+
+.footerbg{
+  background-color: rgba(24, 24, 24, 0.9);
+  color: white;
+  padding: 20px 0px;
+  margin-top: 30px;
+  font-family: "poppins",sans-serif;
+}
+
+.footp{
+  padding: 20px 5px 15px 0px;
+  border-bottom: 1px solid gray;
+}
+
+.footpa{
+  width: 60%;
+}
+.footicons i{
+  font-size: 30px;
+ color: white;
+ padding-left: 20px;
+ 
+}
+.footicons i:hover{
+  background-color: #20b3ca;
+  padding: 10px;
+  border-radius: 10px;
+}
+.copy{
+  color: aquamarine;
+}
+
+.main{
+  display:flex;
+  justify-content: space-between;
+  font-family: "poppins",sans-serif;
+}
+.foot-ul{
+  list-style: none;
+}
+.foot-ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem
+}
+.foot-ul li{
+  padding-bottom: 10px;
+ 
+}
+.foot-ul li a i{
+  margin-right: 1rem;
+}
+
+.foot-ul li a:hover{
+  color: #20b3ca;
+  padding-left: 2px;
+}
+
+
+    /* ******************************** THE END ************************************ */
+
+
+    /* mobile */
+
+
+@media only screen and (min-width: 320px) and (max-width: 467px){
+
+  .navbg{
+   display: none;
+  }
+ .navbar{
+   text-align: center;
+ }
+ .navimg{
+  text-align: center;
+ }
+ .pic{
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  background-attachment: fixed;
+ }
+
+ .footlogo img{
+   width: 100%;
+   height: 100%;
+ }
+ .foottext p{
+   font-size: 12px;
+ }
+ .foottext i{
+   font-size: 15px;
+ }
+ .footicons{
+   text-align: left;
+ }
+ .foot-ul{
+   text-align: left;
+   margin: 0px;
+   width: 100%;
+ }
+ .list{
+   padding: 0px;
+ }
+ .main{
+   display: inline;
+   font-size: 12px;
+   text-align: center;
+ }
+ .right{
+   padding-bottom: 10px;
+ }
+ .mission img{
+  width: 100%;
+ }
+ .pic{
+  padding-bottom: 10px !important;
+ }
+.gap{
+  font-size: 20px;
+  margin: 5px;
+}
+.tabs{
+  width: 100% !important;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.need{
+  padding: 80px 10px;
+}
+
+.left p{
+  margin: 0;
+}
+.right p{
+  margin: 0;
+}
+.btnc{
+  padding: 10px 20px !important;
+}
+ }
+ 
+ /* tablet */
+ @media only screen and (min-width: 467px) and (max-width: 768px){
+ 
+ 
+   .navbg{
+     display: none;
+    }
+   .nav{
+     text-align: center;
+     font-size: 12px;
+    margin-left: 16px;
+   }
+   .navimg{
+    text-align: center;
+   }
+  .pic{
+    height: 90vh;
+  }
+   .footlogo img{
+     width: 100%;
+     height: 100%;
+   }
+   .foottext p{
+     font-size: 12px;
+     padding: 4px 10px;
+
+   }
+   .foottext i{
+     font-size: 15px;
+     padding-left: 9px;
+   }
+   .footicons{
+     text-align: left;
+   }
+   .foot-ul{
+     text-align: left;
+     margin: 0px;
+     width: 100%;
+   }
+   .list{
+     padding: 0px;
+   }
+   .list{
+    padding: 0px;
+  }
+  .main{
+    display: inline;
+    font-size: 12px;
+    text-align: center;
+  }
+  .right{
+    padding-bottom: 10px;
+  }
+  .mission img{
+   width: 100%;
+  }
+  .pic{
+   padding-bottom: 10px !important;
+  }
+ .gap{
+   font-size: 20px;
+   margin: 5px;
+ }
+ .tabs{
+   width: 100% !important;
+   font-size: 14px;
+   /* padding-right: 10px; */
+ }
+ .need{
+   padding: 80px 30px;
+ }
+.left p{
+  margin: 0;
+}
+.right p{
+  margin: 0;
+}
+ }
+
+/* ______________________________________________________________________________________________ */
+
+                    /* THE END ABOUT PAGE */
+ /* ____________________________________________________________________________________________ */
